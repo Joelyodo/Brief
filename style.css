@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0%;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    display: flex;
+    align-items: center;
+    width: 80em;
+    height: 3em;
+    justify-content: space-between;
+    box-shadow: 2px 2px 2px white(0, 0, 0, 0, 30);
+    margin-top: 25px;
+}
+nav a{
+    padding: 5em;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+nav{
+    margin-right: 1em;
+}
+.tete{
+    margin-left: 6em ;
+}
+.banniere{
+    background: url(head.jpeg);
+    height: 40em;
+    margin: auto;
+}
+.banniere h1{
+    color: white;
+    font-family: inter;
+    font-style: bold;
+    line-height: 0.8em;
+    text-align: center;
+    font-size: 5em;
+    letter-spacing: 0cm;
+    margin-top: 20px;
+    padding-top: 200px;
+}
+.raison{
+    background: url(section2.jpeg);
+    height: 40em;
+    margin: auto;
+}
+.raison h3{
+    color: white;
+    font-family: inter;
+    font-size: bold;
+    text-align: center;
+    letter-spacing: 0.2cm;
+    padding-top: 150px;
+}
+.raison h4{
+    color: white;
+    font-family: inter;
+    text-align: center;
+    letter-spacing: 0.1cm;
+    padding-top: 30px;
+}
+.raison h1{
+    color: white;
+    line-height: 0.1em;
+}
+.raison p{
+    color: white;
+}
+.nous {
+    background-color: #0284E2;
+    height: 23em;
+}
+.nous h4{
+    color: white;
+    margin-left: 100px;
+    padding-top: 40px;
+}
+.nous p{
+    color: white;
+    margin-left: 100px;
+    margin-top: -250px;
+}
+.nousphoto{
+    text-align: right;
+    margin-right: 60px;
+    padding-top: 10px;
+}
