@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    display: flex;
+    align-items: center;
+    width: 80em;
+    height: 3em;
+    justify-content: space-around;
+    box-shadow: 2px 2px 2px white(0, 0, 0, 0, 30);
+    margin-top: 25px;
+}
+nav a{
+    padding: 5em;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+nav{
+    width: 100%;
+    margin: auto;
+    min-width: 600px;
+    max-width: 2000px;
+    height: 100%;
+}
+.tete{
+    margin-left: 6em ;
+}
+.banniere{
+    background: url(head.jpeg);
+    height: 40em;
+    margin: auto;
+}
+.banniere h1{
+    color: white;
+    font-family: inter;
+    font-style: bold;
+    line-height: 0.8em;
+    text-align: center;
+    font-size: 5em;
+    letter-spacing: 0cm;
+    margin-top: 20px;
+    padding-top: 200px;
+}
+.raison{
+    background: url(section2.jpeg);
+    height: 40em;
+    margin: auto;
+}
+.raison h3{
+    color: white;
+    font-family: inter;
+    font-size: bold;
+    text-align: center;
+    letter-spacing: 0.2cm;
+    padding-top: 150px;
+}
+.raison h4{
+    color: white;
+    font-family: inter;
+    text-align: center;
+    letter-spacing: 0.1cm;
+    padding-top: 30px;
+}
+.raison h1{
+    color: white;
+    line-height: 0.1em;
+}
+.raison p{
+    color: white;
+}
+.r1{
+    padding-left: 180px;
+    padding-top: 100px;
+}
+.r1 h1{
+    font-size: 80px;
+    padding-left: 40px;
+}
+.r1 p{
+    padding-top: 50px;
+}
+.r2{
+    padding-left: 600px;
+    padding-top: 50px; 
+}
+.r2 h1{
+    font-size: 80px;
+    padding-left: 30px;
+}
+.r2 p{
+    padding-top: 50px;
+}
+.r3{
+    padding-left: 1000px;
+    margin-top: -270px; 
+}
+.r3 h1{
+    font-size: 80px;
+    padding-left: 30px;
+}
+.r3 p{
+    padding-top: 50px;
+}
+.nous {
+    background-color: #0284E2;
+    height: 23em;
+}
+.nous h4{
+    color: white;
+    margin-left: 180px;
+    padding-top: 40px;
+}
+.nous p{
+    color: white;
+    margin-left: 180px;
+    margin-top: -250px;
+}
+.nousphoto{
+    text-align: right;
+    margin-right: 60px;
+    padding-top: 10px;
+}
+.contact{
+    height: 25em;
+}
+.contact h3{
+    text-align: center;
+    padding-top: 40px;
+}
+.contact p{
+    text-align: center;
+    padding-top: 20px;
+}
+.contact1{
+    padding-left: 350px;
+    padding-top: 50px;
+    line-height: 2.5em;
+}
+.contact2{
+    padding-left: 700px;
+    margin-top: -120px;
+}
+.contact3{
+    padding-left: 350px;
+    margin-top: -25px;
+}
+.champ{
+    background-color: #E5E5E5;
+    border: #E5E5E5;
+}
+.champ1{
+    background-color: white;
+    cursor: pointer;
+    border-color: #0284E2;
+}
+.temoignage{
+    height: 24em;
+}
+.temoignage h3{
+    text-align: center;
+    padding-top: 40px;
+    color: black;
+}
+.temoignage h4{
+    color: white;
+    text-align: right;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.temoignage p{
+    color: white;
+}
+.box{
+    position: relative;
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+}
+.tm1{
+    width: 20%;
+    border: 1px solid #014CD9;
+    background-color: #014CD9;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+.tm2{
+    display: flex;
+}
+.radius img{
+border-radius: 10px;
+margin-left: -5px;
+}
+
+.lieu{
+    height: 23em;
+    background-color: #037FE180;
+}
+.lieu h4{
+    margin-left: 180px;
+    padding-top: 30px;
+    color: white;
+}
+.lieu1{
+    margin-left: 180px;
+    line-height: 3em;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.partenaire{
+    height: 20em;
+}
+.partenaire h3{
+    text-align: center;
+    padding-top: 50px;
+}
+.partenaire1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.rs{
+    background: url(sectionrs.jpeg);
+    height: 10em;
+}
+.rs1{
+    color: white;
+    margin-left: 180px;
+    padding-top: 40px;
+}
+.lien{
+    margin-left: 200px;
+    padding-top: 50px;
+}
+.pied{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 2px 2px 2px white(0, 0, 0, 0, 30);
+    height: 100px;
+}
+.pied1{
+    margin-left: 100px;
+}
+.pied2{
+    margin-right: 100px;
+}
