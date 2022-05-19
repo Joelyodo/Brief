@@ -13,10 +13,15 @@ header{
     display: flex;
     align-items: center;
     width: 100%;
-    height: 48px;
+    height: 100px;
     justify-content: space-between;
     box-shadow: 2px 2px 2px white(0, 0, 0, 0, 30);
     margin-top: 25px;
+    position: fixed;
+    z-index: 1030;
+    background-color: white;
+    margin-top: 0;
+
 }
 nav a{
     padding: 5em;
@@ -53,6 +58,15 @@ nav{
     font-size: 4em;
     margin-top: 20px;
     padding-top: 200px;
+    animation: entrance 5s infinite alternate;
+}
+@keyframes entrance{
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 5;
+    }
 }
 .raison{
     background: url(section2.jpeg);
@@ -228,6 +242,15 @@ margin-left: -5px;
     align-items: center;
     justify-content: space-around;
     padding-top: 50px;
+    animation: entrance 2s infinite alternate;
+}
+@keyframes entrance{
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 5;
+    }
 }
 .rs{
     background: url(sectionrs.jpeg);
