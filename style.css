@@ -16,7 +16,6 @@ header{
     height: 85px;
     justify-content: space-between;
     box-shadow: 2px 2px 2px white(0, 0, 0, 0, 30);
-    margin-top: 25px;
     position: fixed;
     z-index: 1030;
     background-color: white;
@@ -25,6 +24,7 @@ header{
 }
 nav a{
     padding: 5em;
+    padding-top: 0;
     font-size: 15px;
     font-weight: bold;
     cursor: pointer;
@@ -56,8 +56,7 @@ nav{
     line-height: 0.8em;
     text-align: center;
     font-size: 4em;
-    margin-top: 20px;
-    padding-top: 200px;
+    padding-top: 25%;
     animation: entrance 5s infinite alternate;
 }
 @keyframes entrance{
@@ -130,6 +129,7 @@ nav{
 }
 .nous1{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     padding-top: 30px;
 }
