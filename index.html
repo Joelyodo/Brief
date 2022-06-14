@@ -14,16 +14,26 @@
         <div class="tete">
             <img src="Logo.png" height="60" width="71" alt="">
         </div>
-        <nav>
+        <nav class="nav-header">
+           <div>
             <a href="#">Accueil</a>
+           </div>
+           <div>
             <a href="#">Nos services</a>
+           </div>
+           <div>
             <a href="#">Nos offres</a>
+           </div>
+           <div>
             <a href="#">Contact</a>
+           </div>
+           <div>
             <a href="#">Blog</a>
+           </div>
         </nav>
     </header>
     <main>
-        <section class="banniere">
+        <section id="banniere" class="banniere">
             <h1>Un évènement marquant? <br>Là où vous voulez, quand <br>vous voulez!</h1>
         </section>
         <section class="raison">
@@ -49,7 +59,7 @@
             <div class="nous1">
                 <p>Clean est une agence événementielle, pas tout à fait <br> comme les autres... <br>Notre équipe, experte en événementiel, est menée <br>par des artistes et des artisans audacieux, <br>insatiables et qui savent rendre un évènement <br>unique, que ce soit: anniversaire d'entreprise, <br>incentive, garden party, inauguration, soirée <br>d'entreprise ou encore séminaire, etc. <br>Notre agence évènementielle fédère des talents pour <br>proposer un contenu événementiel créatif et sur <br>mesure pour faire vivre des expériences <br>émotionnelles en adéquation avec le public <br>concerné. </p>
                 <div class="nousphoto">
-                <img src="sectionP.jpeg" height="261" width="392" alt="">
+                <img src="sectionP.jpeg" height="261" width="392"  alt="photo">
                 </div>
             </div>
         </section>
@@ -70,15 +80,15 @@
                 <div>
                 <input type="text" class="champ" placeholder="E-mail">
                 </div>
-                <div class="contact3">
-                    <button type="submit" class="champ1">Envoyer</button>
-                </div>
             </div>
             <div class="contact2">
-                <textarea name="Commentaire" id="Commentaire" class="champ" cols="28" rows="9" placeholder="Votre commentaire ..."></textarea>
+                <textarea name="Commentaire" id="Commentaire" class="champ" cols="30" rows="9" placeholder="Votre commentaire ..."></textarea>
             </div>
             </div>
         </section>
+        <div class="contact3">
+            <button type="submit" class="champ1">Envoyer</button>
+        </div>
         <hr>
         <section class="temoignage">
             <div>
@@ -116,8 +126,8 @@
                 <p>E-mail: cleancontact@gmail.com</p>
                 <p>Tel: +228 90 45 90 97</p>
             </div>
-            <div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15866.428718640218!2d1.14489915!3d6.18329665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2stg!4v1652145595265!5m2!1sfr!2stg" width="650" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="container-localisation">
+                <iframe class="localisation" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15866.428718640218!2d1.14489915!3d6.18329665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2stg!4v1652145595265!5m2!1sfr!2stg" width="650" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             </div>
         </section>
@@ -130,10 +140,10 @@
                 <img src="logo1.jpeg" height="100" width="100" alt="">
             </div>
             <div>
-                <img src="logo2.jpeg" height="100" width="90" alt="">
+                <img src="logo2.jpeg" height="100"  width="90" alt="">
             </div>
             <div>
-                <img src="logo3.png" height="100" width="100" alt="">
+                <img src="logo3.png" height="100"  width="100" alt="">
             </div>
             </div>
         </section>
@@ -148,7 +158,7 @@
                 <a href="https://www.linkedin.com">Linkedin</a>
             </nav>
         </section>
-        <section class="foot">
+        <div class="foot">
             <footer class="pied">
                 <div class="pied1">
                     © Copyright CLEAN - Tous les droits sont réservés
@@ -160,7 +170,7 @@
                     Conditions générales de vente
                 </div>
             </footer>
-        </section>
+        </div>
     </main>
     
 </body>

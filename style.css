@@ -15,48 +15,86 @@ header{
     width: 100%;
     height: 85px;
     justify-content: space-between;
-    box-shadow: 2px 2px 2px white(0, 0, 0, 0, 30);
+    box-shadow: 2px 2px 2px white;
     position: fixed;
     z-index: 1030;
     background-color: white;
     margin-top: 0;
 
 }
-nav a{
+/* nav a{
     padding: 5em;
-    padding-top: 0;
+    padding-top: 10rem;
     font-size: 15px;
     font-weight: bold;
     cursor: pointer;
 }
 nav{
-    width: 100%;
+    max-width: 1440px;
     margin: auto;
-    width: 100%;
     height: 45%;
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.nav-header{
+    display: flex;
+    margin-right: 6em;
 }
-@media all and (max-width: 900px) {
-    nav a{
-        font-size: 10px;
-    }
+
+.nav-header div{
+    margin-right: 93px;
+}
+
+.container-localisation{
+    max-width: 1000px
+}
+
+.localisation {
+    max-width: 80%;
+    position: relative;
+    left: 81px;
 }
 
 .tete{
     margin-left: 6em ;
 }
+
+main {
+    margin: 0 auto;
+}
+
+.lieu0{
+    max-width: 1080px;
+}
+
+
+/* @media all and (max-width: 1000px) {
+    
+    nav{
+        height: 50%;
+        margin: 0rem 0rem 0rem 10rem;
+    }
+    nav a{
+        padding: 3em;
+        padding-top: 1rem;
+    }
+} */
+
 .banniere{
-    background: url(head.jpeg);
-    height: 40em;
+    background-image: url(head.jpeg);
+    background-size: cover;
+    width: 100%;
     margin: auto;
 }
 .banniere h1{
     color: white;
     font-family: inter;
-    font-style: bold;
+    font-weight: bold;
     line-height: 0.8em;
     text-align: center;
-    font-size: 4em;
-    padding-top: 25%;
+    font-size: 100px;
+    padding: 35% 0 25% 0;
     animation: entrance 5s infinite alternate;
 }
 @keyframes entrance{
@@ -75,7 +113,7 @@ nav{
 .raison h3{
     color: white;
     font-family: inter;
-    font-size: bold;
+    font-weight: bold;
     text-align: center;
     letter-spacing: 0.2cm;
     padding-top: 150px;
@@ -135,17 +173,22 @@ nav{
 }
 .nous h4{
     color: white;
-    margin-left: 180px;
+    margin-left: 108px;
     padding-top: 40px;
 }
 .nous p{
     color: white;
 }
-.contact{
-    height: 25em;
+.nousphoto img{
+    height:15em; 
+    width: 600px;
 }
+
 .contact1{
     line-height: 30px;
+}
+.contact3{
+    margin-bottom: 50px;
 }
 .contact h3{
     text-align: center;
@@ -170,10 +213,19 @@ nav{
     padding-right: 25px;
     padding-bottom: 10px;
 }
-.champ2{
+.champ2, button{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0 10%;
     padding-top: 50px;
+}
+input, button, textarea{
+    border-radius: 10px;
+    padding: 1em;
+}
+input.champ{
+    margin-bottom: 5px;
+    width: 100%;
 }
 .temoignage h3{
     text-align: center;
@@ -215,16 +267,16 @@ margin-left: -5px;
     background-color: #022d4d;
 }
 .lieu h4{
-    margin-left: 180px;
+    margin-left: 100px;
     padding-top: 30px;
     color: white;
 }
 .lieu0{
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
 .lieu1{
-    margin-left: 180px;
     line-height: 3em;
     justify-content: space-between;
     color: white;
@@ -261,15 +313,18 @@ margin-left: -5px;
     margin-left: 180px;
     padding-top: 40px;
 }
-.lien{
-    margin-left: 200px;
-    padding-top: 50px;
+.lien {
+    padding-top: 32px;
+    max-width: 872px;
+    justify-content: space-around;
+    display: flex;
+    margin: 0 auto;
 }
 .pied{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    box-shadow: 2px 2px 2px white(0, 0, 0, 0, 30);
+    box-shadow: 2px 2px 2px white;
     height: 100px;
 }
 .pied1{
@@ -277,4 +332,84 @@ margin-left: -5px;
 }
 .pied2{
     margin-right: 100px;
+}
+@media all and (max-width: 1024px) and (min-width: 700px){
+    .lieu1 {
+        margin-left: 0;
+    }
+
+    .nousphoto{
+        display: none;
+    }
+
+    .nav-header{
+        flex-wrap: wrap;
+        margin-left: 150px;
+    }
+
+    nav{
+        margin: 0;
+    }
+
+    .banniere h1 {
+        font-size: 60px;
+    }
+
+    .nav-header{
+        font-size: 10px;
+    }
+}
+
+@media all and (max-width: 699px) {
+    .tete{
+        margin: 0;
+    }
+    .r2{
+        padding-top: 0;
+    }
+
+    .lieu1{
+        display: none;
+    }
+
+    .nousphoto img{
+       margin: 0;
+        width: 10px;
+        height: 10px;
+        display: none;
+    }
+    .banniere h1 {
+        font-size: 40px;
+    }
+
+    .nav-header{
+        font-size: 10px;
+    }
+    .champ2{
+        display: inline-block;
+    }
+    input.champ{
+        width: 85%;
+    }
+    .radius img{
+        width: 100px;
+    }
+    .box{
+        display: inline-block;
+    }
+    .tm1, .tm2{
+        width: auto;
+        margin-bottom: 10px;
+    }
+    .nav-header div {
+        margin-right: 10px;
+    }
+
+    .localisation {
+        left: 50px;
+    }
+    .pied1{
+        margin-left: 30px;
+    }
+    
 }
